@@ -1,0 +1,12 @@
+# custom: blocked zone forces the long way round
+nb_drones: 3
+start_hub: start 0 0 [color=green]
+end_hub: goal 4 0 [color=yellow]
+hub: short_cut 2 0 [zone=blocked color=gray]
+hub: detour1 1 2
+hub: detour2 3 2
+connection: start-short_cut
+connection: short_cut-goal
+connection: start-detour1
+connection: detour1-detour2
+connection: detour2-goal

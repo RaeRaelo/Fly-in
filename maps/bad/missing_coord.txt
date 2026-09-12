@@ -1,0 +1,2 @@
+nb_drones: 2
+hub: a 0
